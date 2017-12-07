@@ -37,7 +37,7 @@ public class OTXDomainLookupFunction extends AbstractOTXLookupFunction {
         }
 
         LOG.debug("Running OTX lookup for domain [{}].", domain);
-        return lookupIntel("domain", Domain.prepareDomain(domain).trim());
+        return lookupIntel(Domain.prepareDomain(domain).trim(), "domain");
     }
 
     @Override

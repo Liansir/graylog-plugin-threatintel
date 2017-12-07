@@ -132,7 +132,7 @@
       "config": {
         "type": "httpjsonpath",
         "url": "https://otx.alienvault.com/api/v1/indicators/${key}/general",
-        "single_value_jsonpath": "$.reputation",
+        "single_value_jsonpath": "$.pulse_info.count",
         "multi_value_jsonpath": "$",
         "user_agent": "Graylog Lookup - https://www.graylog.org/",
         "headers": {

@@ -134,7 +134,7 @@
         "url": "https://otx.alienvault.com/api/v1/indicators/${key}/general",
         "single_value_jsonpath": "$.pulse_info.count",
         "multi_value_jsonpath": "$",
-        "user_agent": "Graylog Lookup - https://www.graylog.org/",
+        "user_agent": "Graylog Threat Intelligence Plugin - https://github.com/Graylog2/graylog-plugin-threatintel",
         "headers": {
           "X-OTX-API-KEY": "<Enter your API key here>"
         }
